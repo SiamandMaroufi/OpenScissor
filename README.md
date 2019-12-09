@@ -1,4 +1,11 @@
-# OpenScissor
+# Open Scissor
+
+An open source web-based alternative to Raster and Vector editing.
+
+
+## Last status:
+
+<img src="last-state.png" />
 
 ## Project setup
 ```
