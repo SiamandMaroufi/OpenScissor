@@ -1,0 +1,35 @@
+$control_fill: #666666;
+$control_text: #ffffff;
+$control_border: #555555;
+
+$container_fill: #777777;
+$container_border: #222222;
+
+$container_box_fill: #3d3d3d;
+$container_box_border: #222222;
+$container_box_text: #ffffff;
+
+body {
+  background: #000000;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+
+.control {
+  background: $control_fill;
+}
+
+.container {
+  padding: 4px;
+  background: $container_fill;
+  border:solid thin $container_border;
+
+  &-box {
+    padding: 4px;
+    background: $container_box_fill;
+    border:solid thin $container_box_border;
+    color: $container_box_text;
+  }
+}
+
